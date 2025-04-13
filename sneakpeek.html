@@ -85,7 +85,7 @@
       width: 300px;
       height: 300px;
     }
-      .shape-bottom-left {
+    .shape-bottom-left {
       bottom: -100px;
       left: -160px;
       width: 260px;
@@ -97,7 +97,18 @@
       width: 180px;
       height: 180px;
     }
-</style>
+    .shape-bottom-corner {
+      bottom: -1200px;
+      left: 0;
+      width: 220px;
+      height: 220px;
+      background: #0360f6;
+      border-radius: 50%;
+      position: absolute;
+      z-index: 0;
+      opacity: 0.15;
+    }
+  </style>
 </head>
 <body>
   <div class="shape shape-top-left" style="background: #2f80ed;"></div>
@@ -182,5 +193,6 @@
   </script>
   <div class="shape shape-bottom-left"></div>
   <div class="shape shape-bottom-center"></div>
+  <div class="shape shape-bottom-corner"></div>
 </body>
 </html>
